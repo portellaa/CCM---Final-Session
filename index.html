@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+	<title>CCM - Sessão Final</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDPwG5l_fkLjf90FTLfcHBRO38QsybkOp8&sensor=false"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+    <script src="script.js" ></script>
+</head>
+<body>
+	<div class="page">
+		<div id="menu" class="menu">
+			<ul>
+				<li>
+					<a href="#invite" class="selected" onclick="return false;">&lt;Convite /&gt;</a>
+                </li>
+                <li>
+					<a href="#info" onclick="return false;">&lt;Informação /&gt;</a>
+				</li>
+                <li>
+                    <a href="#program" onclick="return false;">&lt;Programação /&gt;</a>
+                </li>
+                <li>
+                    <a href="#location" onclick="return false;">&lt;Localização /&gt;</a>
+                </li>
+			</ul>
+		</div>
+        <div id="main" class="main-content">
+            <div id="invite" class="content active">
+                <div id="invite-imgs" style="position: relative; width: 60em; margin: 0 auto;">
+                    <img id="invite-front" alt="Clicar para virar" class="invite-img active" style="width: 60em;" alt="Invite front side" src="./images/front.png" />
+                    <img id="invite-back" alt="Clicar para virar" class="invite-img" alt="Invite back side" style="width: 60em;" src="./images/back.png" />
+                    <div id="image-info" style="display: none;">
+                        <span>Clicar para virar</span>
+                    </div>
+                </div>
+            </div>
+            <div id="info" class="content text">
+                <div>
+                    <p>
+                        A AETTUA - Associação de Electrónica, Telecomunicações e Telemática da Universidade de Aveiro em parceria com o IEEE - Student Branch da Universidade de Aveiro, vem por este meio convidá-los para a sessão final do Concurso de Computação Móvel.
+                        Este foi também realizado com o apoio de empresas e instituições portuguesas, pelo que sem estas este concurso não teria sido concretizado, o nosso muito obrigado a todas elas.
+                    </p>
+                    <strong style="margin-left: 1em;">Patrocinadores</strong>
+                    <ul style="margin-top: 1px;">
+                        <li>Ubiwhere</li>
+                        <li>Blip</li>
+                        <li>EdgeLabs</li>
+                        <li>WittIt</li>
+                        <li>Sapo</li>
+                        <li>Sapo LABS</li>
+                        <li>Google Student Ambassador</li>
+                    </ul>
+                    <p>
+                        Com o principal objectivo de aproximar os alunos ao mundo industrial, alem da presença das empresas apoiantes, teremos também mais empresas da área, de forma a poderem observar em primeira mão o trabalho desenvolvido pelos participantes do concurso, possibilitando assim um dialogo informal entre alunos e empresas.
+                        <br />
+                        No local haverão espaços destinados a divulgação das empresas patrocinadores e recrutamento.
+                        <br />
+
+                        Lançamos este convite a todos as empresas e alunos interessados.
+                    </p>
+                </div>
+            </div>
+            <div id="program" class="content text">
+                <div>
+                    <p>
+                        <strong style="display: block; text-align: center;">Dia 6 de Junho, 2013</strong>
+                    </p>
+                    <p>
+                        <span style="display: block;"><strong>15h00</strong> - Inicio sessão com apresentação do UAXD40 e do Concurso de Computação Móvel</span>
+                        <span style="display: block;"><strong>15h15</strong> - Apresentação dos projetos do concurso</span>
+                        <span style="display: block;"><strong>16h00</strong> - Apresentação dos projetos do inseridos no programa UAXD40</span>
+                        <span style="display: block;"><strong>18h15</strong> - Coffee Break & Networking</span>
+                        <span style="display: block;"><strong>18h30</strong> - Entrega dos prémios do concurso de computação móvel</span>
+                    </p>
+                    <p>
+                        Aos patrocinadores que pretendam usufruir dos espaços de divulgação e recrutamento, a organização agradece que estes estejam no local uma hora antes do inicio do evento, de modo a poderem montar os respetivos espaços.
+                    </p>
+                </div>
+            </div>
+            <div id="location" class="content">
+                <div id="map"></div>
+                <!--<iframe width="600" height="440" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=d&amp;source=s_d&amp;saddr=Universidade+de+Aveiro,+3810,+Portugal&amp;daddr=40.630942,-8.659043&amp;hl=en&amp;geocode=CSKWdZh7oLAuFQX7awIdmON7_yl1FXIEq6IjDTHZkACNZNlrow%3B&amp;sll=40.631092,-8.659882&amp;sspn=0.001382,0.002768&amp;t=h&amp;mra=mift&amp;mrsp=1&amp;sz=19&amp;ie=UTF8&amp;ll=40.63109,-8.659882&amp;spn=0.001791,0.003213&amp;z=18&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?f=d&amp;source=embed&amp;saddr=Universidade+de+Aveiro,+3810,+Portugal&amp;daddr=40.630942,-8.659043&amp;hl=en&amp;geocode=CSKWdZh7oLAuFQX7awIdmON7_yl1FXIEq6IjDTHZkACNZNlrow%3B&amp;sll=40.631092,-8.659882&amp;sspn=0.001382,0.002768&amp;t=h&amp;mra=mift&amp;mrsp=1&amp;sz=19&amp;ie=UTF8&amp;ll=40.63109,-8.659882&amp;spn=0.001791,0.003213&amp;z=18" style="color:#0000FF;text-align:left">View Larger Map</a></small>-->
+            </div>
+        </div>
+        <hr />
+        <footer id="#footer">
+            <div id="#footer-logos" class="footer-logos">
+                <div id="aettua-logo" style="width: 50%; float: left;">
+                    <img alt="AETTUA Logo" src="./images/aettua-simple.jpg" style="width: 40%;" />
+                </div>
+                <div id="ieee-logo" style="width: 50%; float: right;">
+                    <img alt="IEEE Logo" src="./images/ieee.png" style="width: 40%;" />
+                </div>
+            </div>
+        </footer>
+	</div>
+</body>
+</html>

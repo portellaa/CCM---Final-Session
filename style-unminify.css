@@ -1,0 +1,187 @@
+.page
+{
+    margin: 0 auto;
+    text-align: center;
+    width: 90%;
+    color:#999999;
+    font-family:Helvetica, sans-serif, Arial;
+}
+
+.main-content
+{
+    width: 100%;
+    min-height: 28em;
+    max-height: 28em;
+    text-align: center;
+    vertical-align: middle;
+    margin: 0 auto;
+}
+
+.content
+{
+    display: none;
+    width: 100%;
+    min-height: 28em;
+    max-height: 28em;
+    color: #999999;
+}
+
+#image-info
+{
+    display: none;
+    position: absolute;
+    background: rgba(0,0,0,0.7);
+    z-index: 100;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#image-info span
+{
+    position: relative;
+    z-index: 100;
+    margin: 0 auto;
+    width: 10em;
+    height: 2em;
+    top: 50%;
+    font-size: 2em;
+    color: white;
+    vertical-align: middle;
+}
+
+.invite-img
+{
+    display: none;
+    margin: 0 auto;
+    cursor: pointer;
+    z-index: 50;
+}
+
+.content div
+{
+    vertical-align: bottom;
+}
+
+.text
+{
+    width: 50em;
+    min-height: 28em;
+    max-height: 28em;
+    text-align: justify;
+    vertical-align: middle;
+
+    color: #999999;
+
+    border: 0.1em solid #999999;
+    border-radius: 0.5em;
+}
+
+.text div
+{
+    width: 50em;
+    min-height: 28em;
+    height: 28em;
+    max-height: 28em;
+
+    overflow-y: auto;
+}
+
+.text p
+{
+    color: #5b5b5b !important;
+    position: relative;
+
+    text-align: justify;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.active
+{
+    display: block;
+    margin: 0 auto;
+}
+
+.menu
+{
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+.menu ul
+{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.menu ul li
+{
+    margin: 1em;
+    color: #0c7b9a;
+    display: inline;
+    vertical-align: top;
+}
+.menu ul li a
+{
+    vertical-align: top;
+    padding:0.4em 0.1em;
+
+    text-decoration: none;
+    outline: none;
+    font-size: 1em;
+    font-style: normal;
+    font-weight: bold;
+    color:#999999;
+}
+.menu ul li a:hover
+{
+    color: #5b5b5b;
+    background: transparent url(./images/bg.gif) repeat-x bottom left;
+}
+.selected
+{
+    color: #5b5b5b !important;
+    background: transparent url(./images/bg.gif) repeat-x bottom left;
+}
+
+#map
+{
+    padding: 0;
+    width: 60em;
+    height: 28em;
+    text-align: center;
+    margin: 0 auto;
+}
+
+hr
+{
+    width: 60%;
+    color:#999999;
+    background-color: #999999;
+    height: 0.1em;
+    border: 0;
+    margin: 0 auto;
+    margin-top: 1em;
+}
+
+footer{
+    min-width: inherit;
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 1em;
+}
+
+.footer-logos
+{
+    min-width: inherit;
+    position: relative;
+    width: 80%;
+    display: inline-block;
+    text-align: center;
+    margin: 0 auto;
+}
